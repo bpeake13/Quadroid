@@ -40,7 +40,7 @@ public class FallingCheck : MonoBehaviour
     private Transform centerPoint;
 
     [SerializeField]
-    private BoxCollider checkPlane;
+    private Collider checkPlane;
 
     [SerializeField]
     private bool showDebug;
